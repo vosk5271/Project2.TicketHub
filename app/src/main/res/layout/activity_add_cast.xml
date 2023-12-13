@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D4FAFF"
+    tools:context=".AddShow">
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@drawable/baseline_keyboard_backspace_24"
+        android:layout_margin="@dimen/_5sdp"/>
+
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Cast Name"
+        android:fontFamily="@font/fonts_medium"
+        android:background="@drawable/box3"
+        android:textSize="14sp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        />
+
+    <EditText
+        android:id="@+id/edt_role"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Role"
+        android:fontFamily="@font/fonts_medium"
+        android:background="@drawable/box3"
+        android:textSize="14sp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        />
+
+    <Button
+        android:id="@+id/add_cast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Cast"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_25sdp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_5sdp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/english2"
+            android:layout_margin="@dimen/_5sdp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Extraction"
+                android:id="@+id/movie"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/fonts_medium"/>
+            <TextView
+                android:id="@+id/genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genre : Action"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration: 2 hr 30 min"
+                android:id="@+id/time"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date: Dec, 2022 "
+                android:id="@+id/date"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/cast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Cast"
+            android:layout_marginHorizontal="@dimen/_3sdp"/>
+        <Button
+            android:id="@+id/shows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Show"
+            android:layout_marginHorizontal="@dimen/_3sdp"/>
+        <Button
+            android:id="@+id/add_theatre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Theatre"
+            android:layout_marginHorizontal="@dimen/_3sdp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/black"/>
+
+</LinearLayout>

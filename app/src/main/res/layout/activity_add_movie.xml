@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D4FAFF"
+    tools:context=".AddMovie">
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@drawable/baseline_keyboard_backspace_24"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Movie Name"
+        android:fontFamily="@font/fonts_medium"
+        android:inputType="textPersonName"
+        android:background="@drawable/box3"
+        android:textSize="14sp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        />
+    <EditText
+        android:id="@+id/edt_genre"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Genre Name"
+        android:fontFamily="@font/fonts_medium"
+        android:inputType="textPersonName"
+        android:background="@drawable/box3"
+        android:textSize="14sp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        />
+
+
+    <EditText
+        android:id="@+id/edt_time"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Duration"
+        android:fontFamily="@font/fonts_medium"
+        android:inputType="textPersonName"
+        android:background="@drawable/box3"
+        android:textSize="14sp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        />
+
+
+    <EditText
+        android:id="@+id/edt_date"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Release Date"
+        android:fontFamily="@font/fonts_medium"
+        android:inputType="textPersonName"
+        android:background="@drawable/box3"
+        android:textSize="14sp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        />
+
+
+    <EditText
+        android:id="@+id/edt_poster"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="Poster URL"
+        android:fontFamily="@font/fonts_medium"
+        android:inputType="textPersonName"
+        android:background="@drawable/box3"
+        android:textSize="14sp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginHorizontal="@dimen/_10sdp">
+    <CheckBox
+        android:id="@+id/twod"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2D"
+        android:layout_weight="1"/>
+    <CheckBox
+        android:id="@+id/threed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="3D"
+        android:layout_weight="1"/>
+</LinearLayout>
+    <Button
+        android:id="@+id/add_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Movie"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_25sdp"/>
+
+
+</LinearLayout>
